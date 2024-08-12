@@ -53,7 +53,7 @@ Run the script using Python:
      python EmoMA-Net.py
 ```
 ### Results
-The script prints out the training progress, including the loss and accuracy at each epoch. After training, it displays the maximum test accuracy achieved across all folds of cross-validation.
+The script prints out the training progress, including the loss and accuracy at each epoch. After training, it displays the maximum test accuracy and f1-score achieved across all folds of cross-validation.
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 ### Note
