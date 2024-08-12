@@ -3,7 +3,7 @@
 
 ## EmoMA-Net Model Training and Evaluation
 ### Overview
-This project aims to train and evaluate a deep learning model for emotion recognition based on the WESAD dataset [1]. The model architecture combines Convolutional Neural Networks (CNN) with Convolutional Block Attention Module (CBAM) and Long Short-Term Memory (LSTM) networks to process time-series data effectively [2, 3].
+This project aims to train and evaluate a deep learning model for emotion recognition based on the WESAD dataset [1]. The model architecture combines Convolutional Neural Networks (CNN) with Convolutional Block Attention Module (CBAM) and Long Short-Term Memory (LSTM) networks to process time-series data effectively [2, 3, 4].
 ### Dataset
 The dataset used for training and evaluation is stored in a CSV file named `merged.csv`. It contains time-series data along with labels representing different emotions. Before training, the dataset is preprocessed to ensure compatibility with the model.
 ### Data Preparation
@@ -60,4 +60,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Make sure to adjust the file paths and other settings according to your specific environment and requirements.
 
 ### REFERENCE
-[1]	Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven. 2018. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. Proceedings of the 20th ACM International Conference on Multimodal Interaction (October 2018). DOI:http://dx.doi.org/10.1145/3242969.3242985. 
+[1] Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven. 2018. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. Proceedings of the 20th ACM International Conference on Multimodal Interaction (October 2018). DOI:http://dx.doi.org/10.1145/3242969.3242985. 
+[2] Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In So Kweon. 2018a. CBAM: Convolutional Block Attention Module. (July 2018). Retrieved July 24, 2024 from https://arxiv.org/abs/1807.06521
+[3] Liu, Y., Kang, J., Li, Y., & Ji, B. (2021). A network intrusion detection method based on CNN and CBAM. IEEE INFOCOM 2021 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS). https://doi.org/10.1109/infocomwkshps51825.2021.9484553 
+[4] Maximilian Beck et al. 2024. XLSTM: Extended Long Short-term memory. (May 2024). Retrieved July 24, 2024 from https://arxiv.org/abs/2405.04517
