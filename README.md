@@ -3,7 +3,7 @@
 
 ## EmoMA-Net Model Training and Evaluation
 ### Overview
-This project aims to train and evaluate a deep learning model for emotion recognition based on the EmoMA-Net dataset. The model architecture combines Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks to process time-series data effectively.
+This project aims to train and evaluate a deep learning model for emotion recognition based on the WESAD dataset [1]. The model architecture combines Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks to process time-series data effectively.
 ### Dataset
 The dataset used for training and evaluation is stored in a CSV file named `merged.csv`. It contains time-series data along with labels representing different emotions. Before training, the dataset is preprocessed to ensure compatibility with the model.
 ### Data Preparation
