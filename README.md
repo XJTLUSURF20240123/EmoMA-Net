@@ -20,6 +20,7 @@ The dataset used for training and evaluation is stored in a CSV file named `merg
 The model consists of a CNN for feature extraction followed by an LSTM layer for sequence modeling. The model architecture is defined as follows:
 - Input Layer: Accepts input data of shape (batch_size, channels, height, width).
 - CNN Layers: Multiple convolutional layers to extract features.
+- CBAM Layers: Spatial Attention and Channel Attention.
 - LSTM Layer: Processes the extracted features over time.
 - Output Layer: Produces the final classification output.
 ### Training Process
