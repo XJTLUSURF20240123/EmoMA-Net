@@ -50,7 +50,7 @@ Install required libraries using pip:
 3. Execute the Script:
 Run the script using Python:
 ```python
-     python main.py
+     python EmoMA-Net.py
 ```
 ### Results
 The script prints out the training progress, including the loss and accuracy at each epoch. After training, it displays the maximum test accuracy achieved across all folds of cross-validation.
