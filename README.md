@@ -57,3 +57,6 @@ The script prints out the training progress, including the loss and accuracy at 
 This project is licensed under the MIT License - see the LICENSE file for details.
 ### Note
 Make sure to adjust the file paths and other settings according to your specific environment and requirements.
+
+### REFERENCE
+[1]	Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven. 2018. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. Proceedings of the 20th ACM International Conference on Multimodal Interaction (October 2018). DOI:http://dx.doi.org/10.1145/3242969.3242985. 
