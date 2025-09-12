@@ -1,6 +1,6 @@
 # EmoMA-Net
 ## Our Paper
-You can access our paper through: PUBLISH PENDING
+You can access our paper through: [https://dl.acm.org/doi/10.1145/3704289.3704303](https://dl.acm.org/doi/10.1145/3704289.3704303)
 
 ## EmoMA-Net Model Training and Evaluation
 ### Overview
